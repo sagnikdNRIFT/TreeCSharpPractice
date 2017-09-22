@@ -88,19 +88,21 @@ namespace TreeApp
                 return false;
             }
             BinaryTreeNode<T> temp = this.head;
+            
             while(temp != null)
             {
+                Console.WriteLine(temp.Data);
                 if(temp.Data.CompareTo(data) == 0)
                 {
                     return true;
                 }
                 else if(temp.Data.CompareTo(data) < 0)
                 {
-                    temp = temp.Left;
+                    temp = temp.Right;
                 }
                 else
                 {
-                    temp = temp.Right;
+                    temp = temp.Left;
                 }
             }
             return false;
