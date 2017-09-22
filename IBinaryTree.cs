@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace TreeApp
 {
-    interface Tree<T> where T : IComparable
+    interface BinaryTree<T> where T : IComparable
     {
         void Print();
-        void AddNode(T data);
+        void Add(T data);
         bool Contains(T data);
     }
 }

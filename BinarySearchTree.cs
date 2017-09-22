@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TreeApp
 {
-    class BinarySearchTree<T> : Tree<T> where T: IComparable
+    class BinarySearchTree<T> : BinaryTree<T> where T: IComparable
     {
         BinaryTreeNode<T> head;
 
@@ -15,7 +15,7 @@ namespace TreeApp
             this.head = null;
         }
 
-        public void AddNode(T data)
+        public void Add(T data)
         {
             BinaryTreeNode<T> newNode = new BinaryTreeNode<T>() { Data = data, Left = null, Right = null };
             BinaryTreeNode<T> temp = this.head;

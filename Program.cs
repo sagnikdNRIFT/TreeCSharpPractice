@@ -10,7 +10,7 @@ namespace TreeApp
     {
         static void Main(string[] args)
         {
-            Tree<int> tree = new BinarySearchTree<int>();
+            BinaryTree<int> tree = new BinarySearchTree<int>();
             List<char> menuOptions = new List<char>() { '1', '2', '3', '4'};
             //Contains the console key that was pressed (char +state of ALT,SHIFT,CTRL)
             ConsoleKeyInfo keyInfo;
@@ -36,7 +36,7 @@ namespace TreeApp
                                     Console.WriteLine("Enter value of node");
                                     val = int.Parse(Console.ReadLine());
                                     Console.WriteLine();
-                                    tree.AddNode(val);
+                                    tree.Add(val);
                                     break;
                             case '2': Console.WriteLine();
                                       tree.Print();
