@@ -5,3 +5,10 @@ C:\Users\sagnikd\source\repos\TreeApp\TreeApp\obj\Debug\TreeApp.csprojResolveAss
 C:\Users\sagnikd\source\repos\TreeApp\TreeApp\obj\Debug\TreeApp.csproj.CoreCompileInputs.cache
 C:\Users\sagnikd\source\repos\TreeApp\TreeApp\obj\Debug\TreeApp.exe
 C:\Users\sagnikd\source\repos\TreeApp\TreeApp\obj\Debug\TreeApp.pdb
+D:\PROJECT\SagnikRepo\bin\Debug\TreeApp.exe.config
+D:\PROJECT\SagnikRepo\bin\Debug\TreeApp.exe
+D:\PROJECT\SagnikRepo\bin\Debug\TreeApp.pdb
+D:\PROJECT\SagnikRepo\obj\Debug\TreeApp.csprojResolveAssemblyReference.cache
+D:\PROJECT\SagnikRepo\obj\Debug\TreeApp.csproj.CoreCompileInputs.cache
+D:\PROJECT\SagnikRepo\obj\Debug\TreeApp.exe
+D:\PROJECT\SagnikRepo\obj\Debug\TreeApp.pdb
